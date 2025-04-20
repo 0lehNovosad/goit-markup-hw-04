@@ -239,6 +239,17 @@ a {
   color: #2e2f42;
 }
 
+.main-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
 .main-content-title {
   font-weight: 400;
   font-size: 16px;
@@ -428,6 +439,11 @@ a {
 .footer-social-icon {
   width: 40px;
   height: 40px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-icon {
